@@ -1,0 +1,9 @@
+<h1 [textContent]="appTitle"></h1>
+
+<img [src]="userImageUrl" width="1500">
+
+<div [class.highlighted]="isHighlighted">
+  This div is highlighted based on property binding.
+</div>
+
+<p>Today's date: {{ currentDate | date:'fullDate' }}</p>
